@@ -42,19 +42,21 @@
         //code goes here
     </section> -->
     <header>
-        <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 bg-bg-color rounded-full">
+        <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 md:bg-bg-color rounded-full">
             <div class="navbar text-white">
-                <div class="flex-1">
-                    <div class="flex items-center justify-center">
-                        <a class="text-base font-medium cursor-pointer mr-4">Home</a>
-                        <a class="text-base font-medium cursor-pointer mr-4">About Us</a>
-                        <a class="text-base font-medium cursor-pointer mr-4">Shop</a>
-                        <a class="text-base font-medium cursor-pointer ">All Fruits</a>
+                <div class="hidden md:block">
+                    <div class="flex-1">
+                        <div class="flex items-center justify-center">
+                            <a class="text-base font-medium cursor-pointer mr-4">Home</a>
+                            <a class="text-base font-medium cursor-pointer mr-4">About Us</a>
+                            <a class="text-base font-medium cursor-pointer mr-4">Shop</a>
+                            <a class="text-base font-medium cursor-pointer ">All Fruits</a>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-center justify-start flex-1">
+                <div class="flex items-center md:justify-center justify-start flex-1 space-x-2">
                     <img src="./images/logo.png" alt="">
-                    <h1 class="text-4xl font-bold">Fruit Burst</h1>
+                    <h1 class="text-4xl font-bold md:text-white text-black">Fruit Burst</h1>
                 </div>
                 <div class="hidden sm:block">
                     <div class="flex-1 flex justify-end">
@@ -68,20 +70,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="block sm:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
             </div>
         </nav>
         <!-- banner section -->
         <section class="max-w-screen-xl mx-auto my-10">
-            <div class="carousel w-full  h-[600px]">
+            <div class="carousel w-full h-[250px] md:h-[600px]">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero bg-base-200 text-white">
-                        <img src="/images/banner1.png" class="w-full rounded-sm h-[600px]" />
+                        <img src="/images/banner1.png" class="w-full rounded-sm h-[250px] sm:h-[600px]" />
                         <div class="hero-content text-center">
                             <div class="max-w-2xl sm:space-y-5 space-y-3">
-                                <h1 class="text-7xl font-extrabold">
+                                <h1 class="text-3xl md:text-7xl font-extrabold">
                                     Exotic tastes at your <br> doorstep
                                 </h1>
-                                <p class="text-xl font-medium">
+                                <p class="md:text-xl font-medium">
                                     We supply highly quality organic products
                                 </p>
                                 <button
@@ -97,13 +105,13 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <div class="hero bg-base-200 text-white">
-                        <img src="/images/banner2.png" class="w-full rounded-sm h-[600px]" />
+                        <img src="/images/banner2.png" class="w-full rounded-sm h-[250px] sm:h-[600px]" />
                         <div class="hero-content text-center">
                             <div class="max-w-2xl sm:space-y-5 space-y-3">
-                                <h1 class="text-7xl font-extrabold">
+                                <h1 class="text-3xl md:text-7xl font-extrabold">
                                     Exotic tastes at your <br> doorstep
                                 </h1>
-                                <p class="text-xl font-medium">
+                                <p class="md:text-xl font-medium">
                                     We supply highly quality organic products
                                 </p>
                                 <button
@@ -119,13 +127,13 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <div class="hero bg-base-200 text-white">
-                        <img src="/images/banner3.png" class="w-full rounded-sm h-[600px]" />
+                        <img src="/images/banner3.png" class="w-full rounded-sm h-[250px] sm:h-[600px]" />
                         <div class="hero-content text-center">
                             <div class="max-w-2xl sm:space-y-5 space-y-3">
-                                <h1 class="text-7xl font-extrabold">
+                                <h1 class="text-3xl md:text-7xl font-extrabold">
                                     Exotic tastes at your <br> doorstep
                                 </h1>
-                                <p class="text-xl font-medium">
+                                <p class="md:text-xl font-medium">
                                     We supply highly quality organic products
                                 </p>
                                 <button
@@ -141,13 +149,13 @@
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <div class="hero bg-base-200 text-white">
-                        <img src="/images/banner4.png" class="w-full rounded-sm h-[600px]" />
+                        <img src="/images/banner4.png" class="w-full rounded-sm h-[250px] sm:h-[600px]" />
                         <div class="hero-content text-center">
                             <div class="max-w-2xl sm:space-y-5 space-y-3">
-                                <h1 class="text-7xl font-extrabold">
+                                <h1 class="text-3xl md:text-7xl font-extrabold">
                                     Exotic tastes at your <br> doorstep
                                 </h1>
-                                <p class="text-xl font-medium">
+                                <p class="md:text-xl font-medium">
                                     We supply highly quality organic products
                                 </p>
                                 <button
