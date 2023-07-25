@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+    <title>Fruit Burst</title>
     <!-- daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,6 +14,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'bg-color': '#F85559'
                     }
                 }
             }
@@ -22,17 +23,62 @@
     <!-- custom font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .font-Manrope {
-            font-family: 'Manrope', sans-serif;
+        .font-lato {
+            font-family: 'Lato', sans-serif;
         }
     </style>
 </head>
 
-<body>
+<body class="font-lato">
+    <!-- sample section -->
+    <!-- <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+        //code goes here
+    </section> -->
+    <header>
+        <nav>
 
+        </nav>
+        <!-- banner section -->
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 bg-bg-color rounded-full">
+            <div class="navbar text-white">
+                <div class="flex-1">
+                    <div class="flex items-center space-x-4">
+                        <a class="text-base font-medium cursor-pointer">Home</a>
+                        <a class="text-base font-medium cursor-pointer">About Us</a>
+                        <a class="text-base font-medium cursor-pointer">Shop</a>
+                        <a class="text-base font-medium cursor-pointer">All Fruits</a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center flex-1">
+                    <img src="./images/logo.png" alt="">
+                    <h1 class="text-4xl font-bold">Fruit Burst</h1>
+                </div>
+                <div class="flex-1   flex justify-end">
+                    <div class="form-control inline">
+                        <div class="relative inline-flex items-center">
+                            <input type="text" placeholder="Search"
+                                class="pl-4 pr-4 py-2 rounded-full w-24 md:w-auto  -gray-300" />
+                            <i
+                                class="fa-solid fa-magnifying-glass text-[#121212] absolute right-3 pointer-events-none"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
