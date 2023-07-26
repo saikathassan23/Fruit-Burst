@@ -81,7 +81,7 @@
             </div>
         </nav>
         <!-- banner section -->
-        <section class="max-w-screen-xl mx-auto my-10">
+        <section class="max-w-screen-xl mx-auto my-10 relative">
             <div class="carousel w-full h-[250px]  sm:h-[600px]">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero bg-base-200 text-white">
@@ -172,11 +172,40 @@
                     </div>
                 </div>
             </div>
+            <!-- floating fruits -->
+            <div class="max-w-screen-lg drop-shadow-xl rounded-xl bg-white h-auto mx-auto hidden md:block absolute -bottom-24 right-0 left-0 p-5">
+                <div class="grid grid-cols-5 justify-center items-center  text-center">
+                    <div class="flex justify-center flex-col items-center">
+                        <img src="./images/fruit1.png" class="w-3/4" alt="">
+                        <p class="text-xl font-medium">Strawberry</p>
+                    </div>
+                    <div class="flex justify-center flex-col items-center">
+                        <img src="./images/fruit2.png" alt="" class="w-3/4">
+                        <p class="text-xl font-medium">Orange</p>
+
+                    </div>
+                    <div class="flex justify-center flex-col items-center">
+                        <img src="./images/fruit3.png" alt="" class="w-3/4">
+                        <p class="text-xl font-medium">Mango</p>
+
+                    </div>
+                    <div class="flex justify-center flex-col items-center">
+                        <img src="./images/fruit4.png" alt="" class="w-3/4">
+                        <p class="text-xl font-medium">Strawberry</p>
+
+                    </div>
+                    <div class="flex justify-center flex-col items-center">
+                        <img src="./images/fruit5.png" alt="" class="w-3/4">
+                        <p class="text-xl font-medium">Mango</p>
+
+                    </div>
+                </div>
+            </div>
         </section>
     </header>
     <main>
         <!-- deal of the day -->
-        <section class="max-w-screen-xl mx-auto my-10 space-y-10">
+        <section class="max-w-screen-xl mx-auto my-10 space-y-10 md:mt-36">
             <div class="flex flex-col md:flex-row gap-10">
                 <div class="flex-1 items-center  text-center md:text-left md:justify-start space-y-4">
                     <h2 class="text-5xl font-extrabold">Deal of the day</h2>
@@ -264,8 +293,10 @@
                                                     class="mask mask-star-2 bg-orange-400" />
                                             </div>
                                             <div class="space-x-5">
-                                                <button class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
-                                                <button class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
+                                                <button
+                                                    class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
+                                                <button
+                                                    class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
                                             </div>
                                         </div>
                                     </div>
@@ -302,7 +333,7 @@
                                     <!-- card 2 -->
                                     <div class="card">
                                         <figure class="px-10 pt-5">
-                                            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl w-3/4" />
+                                            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl w-3/4" />
                                         </figure>
                                         <div class="card-body items-center text-center">
                                             <h2 class="font-extrabold text-4xl">Red Dragon</h2>
@@ -321,8 +352,10 @@
                                                     class="mask mask-star-2 bg-orange-400" />
                                             </div>
                                             <div class="space-x-5">
-                                                <button class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
-                                                <button class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
+                                                <button
+                                                    class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
+                                                <button
+                                                    class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
                                             </div>
                                         </div>
                                     </div>
@@ -378,8 +411,10 @@
                                                     class="mask mask-star-2 bg-orange-400" />
                                             </div>
                                             <div class="space-x-5">
-                                                <button class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
-                                                <button class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
+                                                <button
+                                                    class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
+                                                <button
+                                                    class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
                                             </div>
                                         </div>
                                     </div>
@@ -435,8 +470,10 @@
                                                     class="mask mask-star-2 bg-orange-400" />
                                             </div>
                                             <div class="space-x-5">
-                                                <button class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
-                                                <button class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
+                                                <button
+                                                    class="btn bg-transparent text-bg-color border-2 border-bg-color capitalize px-7 py-5">Close</button>
+                                                <button
+                                                    class="btn bg-bg-color text-white capitalize px-7 py-5">Buy</button>
                                             </div>
                                         </div>
                                     </div>
@@ -635,12 +672,12 @@
             <h1 class="text-2xl md:text-4xl font-bold text-white">Fruit Burst</h1>
         </div>
         <div class="flex flex-wrap gap-4">
-            <a class="link link-hover">Home</a>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Shop</a>
-            <a class="link link-hover">All Fruits</a>
-            <a class="link link-hover">Supports</a>
-            <a class="link link-hover">My Account</a>
+            <a class="cursor-pointer">Home</a>
+            <a class="cursor-pointer">About us</a>
+            <a class="cursor-pointer">Shop</a>
+            <a class="cursor-pointer">All Fruits</a>
+            <a class="cursor-pointer">Supports</a>
+            <a class="cursor-pointer">My Account</a>
         </div>
         <div>
             <div class="grid grid-flow-col gap-4">
